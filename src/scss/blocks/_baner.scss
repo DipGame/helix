@@ -1,0 +1,310 @@
+.baner_12 {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto 80px;
+    padding: 40px 0 0;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+
+    .cont_1 {
+        width: 100%;
+        max-width: 850px;
+    }
+
+    .cont_2 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .wiget,
+        .banners__block {
+            height: 50%;
+            max-height: 50%;
+        }
+
+        .wiget {
+            border: 1px solid red;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .banners__block {
+            display: flex;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            flex-direction: column;
+            gap: 15px;
+            padding: 30px;
+            border-radius: 8px;
+            overflow: hidden;
+
+            h1 {
+                font-family: DIN Next W1G;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 33.6px;
+                text-align: left;
+            }
+
+            .banners__block-centers {
+                margin-top: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                p {
+                    font-family: DIN Next W1G;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 19.2px;
+                    text-align: left;
+                }
+
+                .box {
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+
+                    p {
+                        font-family: DIN Next W1G;
+                        font-size: 36px;
+                        font-weight: 400;
+                        line-height: 43.2px;
+                        text-align: left;
+                        color: #0FB967;
+                        border-bottom: 1px dotted #0FB967;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.baner12Swiper {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+
+    .baner12Swiper-pagination {
+        position: absolute;
+        top: 367px;
+        z-index: 10;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+
+        .swiper-pagination-bullet {
+            margin: 0;
+            background-color: #FFF;
+            width: 8px;
+            height: 8px;
+            opacity: 1;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #0FB967;
+        }
+    }
+
+    .baner12Swiper_prev,
+    .baner12Swiper_next {
+        cursor: pointer;
+        position: absolute;
+        top: 190px;
+        z-index: 10;
+        left: 10px;
+    }
+
+    .baner12Swiper_next {
+        left: auto;
+        right: 10px;
+    }
+
+    .back {
+        height: 420px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .span_1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // height: 35px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-family: DIN Pro;
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 29.25px;
+            text-align: center;
+            color: #FFF;
+            background: #9CA3AF33;
+            text-transform: uppercase;
+        }
+
+        .span_2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 35px;
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%) rotate(-90deg);
+            right: -49%;
+            font-family: DIN Next W1G;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 14.4px;
+            text-align: center;
+            color: #FFF;
+            text-transform: uppercase;
+        }
+    }
+
+    .title_cont {
+        border: 1px solid #EEF0F4;
+        border-radius: 0 0 8px 8px;
+        padding: 25px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+
+        span {
+            font-family: DIN Next W1G;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.2px;
+            text-align: left;
+            color: #FC7C68;
+        }
+
+        h1 {
+            font-family: DIN Next W1G;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 45px;
+            text-align: left;
+            color: #0FB967;
+        }
+    }
+}
+
+@media (max-width: 1359px) {
+    .baner_12 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .baner_12 .cont_2 {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .baner_12 .cont_2 .wiget,
+    .baner_12 .cont_2 .banners__block {
+        width: 50%;
+        height: auto;
+        max-height: none;
+        // aspect-ratio: 2/1;
+    }
+
+    .baner_12 .cont_1 {
+        max-width: none;
+    }
+}
+
+@media (max-width: 902px) {
+    .baner_12 .cont_2 {
+        flex-direction: column;
+    }
+
+    .baner_12 .cont_2 .wiget,
+    .baner_12 .cont_2 .banners__block {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .baner_12 .cont_2 .banners__block {
+        min-height: 300px;
+    }
+
+    .baner12Swiper .baner12Swiper-pagination {
+        display: none;
+    }
+}
+
+@media (max-width: 470px) {
+
+    .baner_12 .cont_2 .wiget,
+    .baner_12 .cont_2 .banners__block {
+        aspect-ratio: auto;
+    }
+
+    .baner_12 .cont_2 .banners__block {
+        min-height: 220px;
+    }
+
+    .baner12Swiper .back .span_1 {
+        font-family: DIN Pro;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 11.7px;
+        text-align: center;
+    }
+
+    .baner12Swiper .back .span_2 {
+        font-family: DIN Next W1G;
+        font-size: 6px;
+        font-weight: 300;
+        line-height: 8.4px;
+        text-align: center;
+    }
+
+    .baner12Swiper .title_cont span {
+        font-family: DIN Next W1G;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.8px;
+        text-align: left;
+    }
+
+    .baner12Swiper .title_cont h1 {
+        font-family: DIN Next W1G;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.6px;
+        text-align: left;
+    }
+
+    .baner12Swiper .back {
+        height: 170px;
+    }
+
+    .baner12Swiper .baner12Swiper_prev,
+    .baner12Swiper .baner12Swiper_next {
+        display: none;
+    }
+
+    .baner_12 .cont_2 .banners__block h1 {
+        font-family: DIN Next W1G;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 33.6px;
+        text-align: left;
+    }
+
+
+}

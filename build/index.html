@@ -1,0 +1,1976 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Стартовый шаблон</title>
+	<link rel="stylesheet" href="./fonts/font.css" />
+	<link rel="stylesheet" href="./css/swiper-bundle.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<style>
+	
+</style>
+
+<body>
+	<header class="">
+    <div class="header__container">
+
+        <div class="mob_top_cont">
+            <img class="logo_2" src="./img/logo.png" alt="logo">
+        </div>
+
+        <div class="bottom_cont">
+
+            <div class="menu__burger">
+                <svg class="open-burg " width="24" height="21" viewBox="0 0 24 21" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.6667 10.5555H1.33334M22.6667 1.66663H1.33334M22.6667 19.4444H1.33334" stroke="#111827"
+                        stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <svg class="close-burg" width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path
+                            d="M20.7457 3.32851C20.3552 2.93798 19.722 2.93798 19.3315 3.32851L12.0371 10.6229L4.74275 3.32851C4.35223 2.93798 3.71906 2.93798 3.32854 3.32851C2.93801 3.71903 2.93801 4.3522 3.32854 4.74272L10.6229 12.0371L3.32856 19.3314C2.93803 19.722 2.93803 20.3551 3.32856 20.7457C3.71908 21.1362 4.35225 21.1362 4.74277 20.7457L12.0371 13.4513L19.3315 20.7457C19.722 21.1362 20.3552 21.1362 20.7457 20.7457C21.1362 20.3551 21.1362 19.722 20.7457 19.3315L13.4513 12.0371L20.7457 4.74272C21.1362 4.3522 21.1362 3.71903 20.7457 3.32851Z"
+                            fill="#111827"></path>
+                    </g>
+                </svg>
+            </div>
+
+            <img class="logo_1" src="./img/logo.png" alt="logo">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="/analyzes/" class="menu__link">Анализы</a>
+                </li>
+                <li class="menu__item  menu__item-dropdown">
+                    <a href="/choose/" class="menu__link">Врачи</a>
+                    <div class="menu__expand">
+                        <div class="menu__expand-layout">
+                            <ul class="menu__dropdown">
+                                <li class="menu__dropdown-item">
+                                    <span class="menu__dropdown-link menu__dropdown-link_none">Взрослые врачи</span>
+                                </li>
+                                <li class="menu__dropdown-item">
+                                    <a class="menu__dropdown-link" href="/specialties/otolaringolog/">
+                                        <svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg>
+                                        <span>Отоларинголог</span>
+                                    </a>
+                                </li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/dermatologtm/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Дерматолог</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/akusher-ginekolog/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Акушер-гинеколог</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/onkolog-ginekolog/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Онколог-гинеколог</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/terapevt/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Терапевт</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/gastroenterolog/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Гастроэнтеролог</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/psikholog/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Психолог</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/ginekolog/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Гинеколог</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/funktsionalnyy-diagnost/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Функциональный диагност</span></a></li>
+                            </ul>
+                            <ul class="menu__dropdown">
+                                <li class="menu__dropdown-item"><span
+                                        class="menu__dropdown-link menu__dropdown-link_none">Детские врачи</span></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/pediatr/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Педиатр</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/detskiy-nevrolog/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Детский невролог</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/detskiy-ginekolog/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Детский гинеколог</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/detskiy-otolaringolog/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Детский отоларинголог</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/detskiy-neyropsikholog/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Детский нейропсихолог</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/specialties/uzi-detyam/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Узи детям</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__item  menu__item-dropdown">
+                    <a href="/diagnostics/" class="menu__link">Услуги</a>
+                    <div class="menu__expand">
+                        <div class="menu__expand-layout">
+                            <ul class="menu__dropdown">
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/diagnostics/uzi/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>УЗИ</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/diagnostics/ekg/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>ЭКГ</span></a></li>
+                                <li class="menu__dropdown-item"><a class="menu__dropdown-link"
+                                        href="/diagnostics/funktsionalnaya-diagnostika/"><svg>
+                                            <use href="/local/assets/img/icons/icons.svg#ellipse"></use>
+                                        </svg><span>Функциональная диагностика</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__item">
+                    <a href="/analyzes/" class="menu__link">Акции</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/analyzes/" class="menu__link">Прайс</a>
+                </li>
+            </ul>
+
+            <div class="cont_1">
+                <form id="title-search" action="/search/index.php" class="header__search">
+                    <div class="header__search-row">
+                        <input type="text" id="title-search-input" class="header__search-input" placeholder="Поиск"
+                            minlength="1" maxlength="50" name="q" value="" autocomplete="off">
+                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.8901 17.3296L12.6613 12.1008C13.653 10.8764 14.25 9.31978 14.25 7.62503C14.25 3.69631 11.0537 0.5 7.125 0.5C3.19627 0.5 0 3.69631 0 7.62503C0 11.5538 3.19631 14.7501 7.12503 14.7501C8.81978 14.7501 10.3764 14.153 11.6007 13.1613L16.8296 18.3902C16.9761 18.5366 17.2135 18.5366 17.36 18.3902L17.8902 17.86C18.0366 17.7135 18.0366 17.4761 17.8901 17.3296ZM7.12503 13.25C4.02322 13.25 1.50002 10.7268 1.50002 7.62503C1.50002 4.52322 4.02322 2.00002 7.12503 2.00002C10.2268 2.00002 12.75 4.52322 12.75 7.62503C12.75 10.7268 10.2268 13.25 7.12503 13.25Z"
+                                fill="#111827" />
+                        </svg>
+                    </div>
+                </form>
+                <svg class="close-search" width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path
+                            d="M20.7457 3.32851C20.3552 2.93798 19.722 2.93798 19.3315 3.32851L12.0371 10.6229L4.74275 3.32851C4.35223 2.93798 3.71906 2.93798 3.32854 3.32851C2.93801 3.71903 2.93801 4.3522 3.32854 4.74272L10.6229 12.0371L3.32856 19.3314C2.93803 19.722 2.93803 20.3551 3.32856 20.7457C3.71908 21.1362 4.35225 21.1362 4.74277 20.7457L12.0371 13.4513L19.3315 20.7457C19.722 21.1362 20.3552 21.1362 20.7457 20.7457C21.1362 20.3551 21.1362 19.722 20.7457 19.3315L13.4513 12.0371L20.7457 4.74272C21.1362 4.3522 21.1362 3.71903 20.7457 3.32851Z"
+                            fill="#111827"></path>
+                    </g>
+                </svg>
+                <a class="button" href="">
+                    Запись на прием
+                </a>
+
+                <a class="search_btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M22.6666 22.6667L17.5111 17.5112M20.2963 10.8149C20.2963 16.0513 16.0513 20.2963 10.8148 20.2963C5.57834 20.2963 1.33334 16.0513 1.33334 10.8149C1.33334 5.57838 5.57834 1.33337 10.8148 1.33337C16.0513 1.33337 20.2963 5.57838 20.2963 10.8149Z"
+                            stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+
+                <div class="header__cart-container">
+                    <a class="phone_link" href="">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.8 16.304V20.5472C21.8001 20.851 21.685 21.1435 21.4779 21.3658C21.2708 21.5881 20.9871 21.7235 20.684 21.7448C20.1596 21.7808 19.7312 21.8 19.4 21.8C8.7956 21.8 0.199997 13.2044 0.199997 2.59995C0.199997 2.26875 0.217997 1.84035 0.255197 1.31595C0.276464 1.01288 0.411894 0.729164 0.634161 0.522042C0.856428 0.314919 1.14898 0.199814 1.4528 0.199951H5.696C5.84484 0.199801 5.98843 0.254982 6.09887 0.354776C6.20931 0.454569 6.27871 0.591851 6.2936 0.739952C6.3212 1.01595 6.3464 1.23555 6.3704 1.40235C6.60888 3.06666 7.0976 4.68535 7.82 6.20355C7.934 6.44355 7.8596 6.73035 7.6436 6.88395L5.054 8.73435C6.63734 12.4237 9.57746 15.3638 13.2668 16.9472L15.1148 14.3624C15.1903 14.2568 15.3005 14.181 15.4262 14.1483C15.5518 14.1157 15.685 14.1281 15.8024 14.1836C17.3204 14.9046 18.9387 15.3921 20.6024 15.6296C20.7692 15.6536 20.9888 15.68 21.2624 15.7064C21.4103 15.7215 21.5473 15.791 21.6468 15.9014C21.7464 16.0119 21.8014 16.1553 21.8012 16.304H21.8Z"
+                                fill="#0FB967" />
+                        </svg>
+
+                    </a>
+                    <div id="bee_cart" class="bc-cart-w " style=""><a href="/cart/" class="bc-cart-w-btn-show-cart">
+                            <div class="bc-cart-w-btn-show-cart-image-w">
+                                <div class="bc-cart-w-btn-show-cart-count-w">
+                                    <div class="bc-cart-w-btn-show-cart-count__ico">
+                                        <svg width="19" height="20" viewBox="0 0 19 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3.6 6.8H16.1442L16.5942 5H5.4V3.2H17.748C17.8848 3.2 18.0198 3.23119 18.1428 3.2912C18.2657 3.35121 18.3733 3.43846 18.4575 3.54631C18.5417 3.65416 18.6001 3.77978 18.6285 3.91362C18.6568 4.04746 18.6542 4.186 18.621 4.3187L16.371 13.3187C16.3222 13.5133 16.2099 13.6861 16.0517 13.8095C15.8935 13.9329 15.6986 14 15.498 14H2.7C2.46131 14 2.23239 13.9052 2.0636 13.7364C1.89482 13.5676 1.8 13.3387 1.8 13.1V2.3H0V0.5H2.7C2.93869 0.5 3.16761 0.594821 3.3364 0.763604C3.50518 0.932387 3.6 1.16131 3.6 1.4V6.8ZM3.6 19.4C3.12261 19.4 2.66477 19.2104 2.32721 18.8728C1.98964 18.5352 1.8 18.0774 1.8 17.6C1.8 17.1226 1.98964 16.6648 2.32721 16.3272C2.66477 15.9896 3.12261 15.8 3.6 15.8C4.07739 15.8 4.53523 15.9896 4.87279 16.3272C5.21036 16.6648 5.4 17.1226 5.4 17.6C5.4 18.0774 5.21036 18.5352 4.87279 18.8728C4.53523 19.2104 4.07739 19.4 3.6 19.4ZM14.4 19.4C13.9226 19.4 13.4648 19.2104 13.1272 18.8728C12.7896 18.5352 12.6 18.0774 12.6 17.6C12.6 17.1226 12.7896 16.6648 13.1272 16.3272C13.4648 15.9896 13.9226 15.8 14.4 15.8C14.8774 15.8 15.3352 15.9896 15.6728 16.3272C16.0104 16.6648 16.2 17.1226 16.2 17.6C16.2 18.0774 16.0104 18.5352 15.6728 18.8728C15.3352 19.2104 14.8774 19.4 14.4 19.4Z"
+                                                fill="#0FB967" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="bc-cart-w-btn-show-cart-count">12</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <a id="finevision_banner" class="header__eye">
+                    <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.5 0.539062C6.67879 0.539062 3.21351 2.62968 0.65649 6.02541C0.447837 6.30361 0.447837 6.69228 0.65649 6.97048C3.21351 10.3703 6.67879 12.4609 10.5 12.4609C14.3212 12.4609 17.7865 10.3703 20.3435 6.97457C20.5522 6.69637 20.5522 6.3077 20.3435 6.0295C17.7865 2.62968 14.3212 0.539062 10.5 0.539062ZM10.7741 10.6976C8.23755 10.8572 6.14284 8.76653 6.30239 6.22588C6.43331 4.13117 8.13118 2.4333 10.2259 2.30238C12.7625 2.14283 14.8572 4.23345 14.6976 6.7741C14.5626 8.86472 12.8647 10.5626 10.7741 10.6976ZM10.6473 8.75835C9.28081 8.84427 8.15163 7.71918 8.24164 6.35271C8.31119 5.22353 9.22763 4.31118 10.3568 4.23754C11.7233 4.15162 12.8525 5.27671 12.7625 6.64318C12.6888 7.77646 11.7724 8.6888 10.6473 8.75835Z"
+                            fill="#111827" />
+                    </svg>
+                </a>
+            </div>
+
+
+        </div>
+
+
+    </div>
+</header>
+	<main>
+		<section class="flex padding">
+    <div class="baner_12">
+        <div class="cont_1">
+            <div class="swiper baner12Swiper">
+                <div class="swiper-wrapper" data-swiper-autoplay="2000">
+                    <div class="swiper-slide">
+                        <div class="back" style="background-image: url('./img/back_1.png');">
+                            <span class="span_1">
+                                УСЛУГИ ЛИЦЕНЗИРОВАНЫ. ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА
+                            </span>
+                            <span class="span_2">
+                                Реклама ООО «Хеликс Тюмень», ИНН 7203391289
+                            </span>
+                        </div>
+                        <div class="title_cont">
+                            <span>
+                                с 01.07.24 по 31.07.24
+                            </span>
+                            <h1>
+                                Вот это лето! Пройдите чекап за 1790 руб.
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="back" style="background-image: url('./img/back_1.png');">
+                            <span class="span_1">
+                                УСЛУГИ ЛИЦЕНЗИРОВАНЫ. ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА
+                            </span>
+                            <span class="span_2">
+                                Реклама ООО «Хеликс Тюмень», ИНН 7203391289
+                            </span>
+                        </div>
+                        <div class="title_cont">
+                            <span>
+                                с 01.07.24 по 31.07.24
+                            </span>
+                            <h1>
+                                Вот это лето! Пройдите чекап за 1790 руб.
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="back" style="background-image: url('./img/back_1.png');">
+                            <span class="span_1">
+                                УСЛУГИ ЛИЦЕНЗИРОВАНЫ. ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА
+                            </span>
+                            <span class="span_2">
+                                Реклама ООО «Хеликс Тюмень», ИНН 7203391289
+                            </span>
+                        </div>
+                        <div class="title_cont">
+                            <span>
+                                с 01.07.24 по 31.07.24
+                            </span>
+                            <h1>
+                                Вот это лето! Пройдите чекап за 1790 руб.
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="baner12Swiper-pagination"></div>
+                <svg class="baner12Swiper_prev" width="50" height="50" viewBox="0 0 50 50" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.7">
+                        <rect width="50" height="50" rx="25" transform="matrix(-1 0 0 1 50 0)" fill="white" />
+                        <path d="M29 33L21.4195 25.9428C20.8602 25.4221 20.8602 24.5779 21.4195 24.0572L29 17"
+                            stroke="#111827" stroke-width="1.5" stroke-linecap="round" />
+                    </g>
+                </svg>
+                <svg class="baner12Swiper_next" width="50" height="50" viewBox="0 0 50 50" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.8">
+                        <rect width="50" height="50" rx="25" fill="white" />
+                        <path d="M21 33L28.5805 25.9428C29.1398 25.4221 29.1398 24.5779 28.5805 24.0572L21 17"
+                            stroke="#111827" stroke-width="1.5" stroke-linecap="round" />
+                    </g>
+                </svg>
+
+            </div>
+        </div>
+        <div class="cont_2">
+            <div class="wiget">
+
+            </div>
+            <div style="background-image: url('./img/back_2.png');" class="banners__block">
+                <h1 class="banners__block-title">Выберите удобное отделение поблизости</h1>
+                <div class="banners__block-centers">
+                    <div class="box">
+                        <svg width="28" height="34" viewBox="0 0 28 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.546 23.546L14 33.092L4.45401 23.546C2.56601 21.658 1.28028 19.2525 0.759393 16.6338C0.238506 14.015 0.50586 11.3006 1.52765 8.83386C2.54944 6.36706 4.27977 4.25866 6.49983 2.77527C8.71989 1.29188 11.33 0.500122 14 0.500122C16.67 0.500122 19.2801 1.29188 21.5002 2.77527C23.7202 4.25866 25.4506 6.36706 26.4724 8.83386C27.4942 11.3006 27.7615 14.015 27.2406 16.6338C26.7197 19.2525 25.434 21.658 23.546 23.546ZM14 20C15.5913 20 17.1174 19.3679 18.2426 18.2426C19.3679 17.1174 20 15.5913 20 14C20 12.4087 19.3679 10.8826 18.2426 9.75736C17.1174 8.63214 15.5913 8 14 8C12.4087 8 10.8826 8.63214 9.75737 9.75736C8.63215 10.8826 8.00001 12.4087 8.00001 14C8.00001 15.5913 8.63215 17.1174 9.75737 18.2426C10.8826 19.3679 12.4087 20 14 20ZM14 17C13.2044 17 12.4413 16.6839 11.8787 16.1213C11.3161 15.5587 11 14.7957 11 14C11 13.2044 11.3161 12.4413 11.8787 11.8787C12.4413 11.3161 13.2044 11 14 11C14.7957 11 15.5587 11.3161 16.1213 11.8787C16.6839 12.4413 17 13.2044 17 14C17 14.7957 16.6839 15.5587 16.1213 16.1213C15.5587 16.6839 14.7957 17 14 17Z"
+                                fill="#0FB967" />
+                        </svg>
+                        <p>11</p>
+                    </div>
+                    <p>Медицинских центров в Тюмени</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="flex padding">
+    <div class="specialties_2">
+        <div class="tabs">
+            <label class="label--active" for="tab1">ВЗРОСЛОЕ ОТДЕЛЕНИЕ
+                <input id="tab1" class="visually-hidden" type="radio" value="tab1" name="tabs">
+            </label>
+
+            <label for="tab2">ДЕТСКОЕ ОТДЕЛЕНИЕ
+                <input id="tab2" class="visually-hidden" type="radio" value="tab2" name="tabs">
+            </label>
+        </div>
+        <div class="tabs__content">
+            <div class="tabs__tab" data-pointer="tab1">
+                <ul class="specialties__list">
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+                            А
+                        </p>
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <p>
+
+                        </p>
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tabs__tab invise" data-pointer="tab3">
+                <ul class="specialties__list">
+
+                    <li id="bx_651765591_15" class="specialties__item">
+                        <a href="/specialties/otolaringolog/" class="specialties__item-link">
+                            <span>Отоларинголог</span>
+                        </a>
+                    </li>
+
+                    <li id="bx_651765591_16" class="specialties__item">
+                        <a href="/specialties/dermatologtm/" class="specialties__item-link">
+                            <span>Дерматолог</span>
+                        </a>
+                    </li>
+
+                    <li id="bx_651765591_22" class="specialties__item">
+                        <a href="/specialties/allergolog-immunolog/" class="specialties__item-link">
+                            <span>Аллерголог-иммунолог</span>
+                        </a>
+                    </li>
+
+                    <li id="bx_651765591_25435" class="specialties__item">
+                        <a href="/specialties/psikholog/" class="specialties__item-link">
+                            <span>Психолог</span>
+                        </a>
+                    </li>
+
+                    <li id="bx_651765591_25651" class="specialties__item">
+                        <a href="/specialties/funktsionalnyy-diagnost/" class="specialties__item-link">
+                            <span>Функциональный диагност</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</section> 
+		<section class="flex padding">
+    <div class="popular">
+        <div class="section__top">
+            <h2 class="section__title _anim-items _anim-no-hide _animate">Популярные услуги</h2>
+            <a href="#" class="all-link section__all _anim-items _anim-no-hide _animate" style="height: 35px;">Все
+                услуги
+                <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M11.5 1.5L16.8728 6.87164C16.9576 6.95495 17 7.06414 17 7.17333M11.5 12.5L16.8728 7.47503C16.9576 7.39172 17 7.28253 17 7.17333M17 7.17333H1"
+                        stroke="#0FB967" stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+            </a>
+        </div>
+        <div class="cont">
+
+            <div class="swiper popularSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_1.png" alt="">
+                        </div>
+                        <a>
+                            Ультразвуковое 
+                        </a>
+                        <div class="bot">
+                            <p>
+                                1 200 руб.
+                            </p>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_1.png" alt="">
+                        </div>
+                        <a>
+                            Ультразвуковое исследование почек
+                            и надпочечников
+                        </a>
+                        <div class="bot">
+                            <p>
+                                1 200 руб.
+                            </p>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_1.png" alt="">
+                        </div>
+                        <a>
+                            Ультразвуковое исследование почек
+                            и надпочечников
+                        </a>
+                        <div class="bot">
+                            <p>
+                                1 200 руб.
+                            </p>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_1.png" alt="">
+                        </div>
+                        <a>
+                            Ультразвуковое исследование почек
+                            и надпочечников
+                        </a>
+                        <div class="bot">
+                            <p>
+                                1 200 руб.
+                            </p>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_1.png" alt="">
+                        </div>
+                        <a>
+                            Ультразвуковое исследование почек
+                            и надпочечников
+                        </a>
+                        <div class="bot">
+                            <p>
+                                1 200 руб.
+                            </p>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_1.png" alt="">
+                        </div>
+                        <a>
+                            Ультразвуковое исследование почек
+                            и надпочечников
+                        </a>
+                        <div class="bot">
+                            <p>
+                                1 200 руб.
+                            </p>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <svg class="popularSwiper-button-prev" width="70" height="70" viewBox="0 0 70 70" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_47_131)">
+                    <rect width="50" height="50" rx="25" transform="matrix(-1 0 0 1 60 7)" fill="white"
+                        shape-rendering="crispEdges" />
+                    <path d="M39 40L31.4195 32.9428C30.8602 32.4221 30.8602 31.5779 31.4195 31.0572L39 24"
+                        stroke="#111827" stroke-width="1.5" stroke-linecap="round" />
+                </g>
+                <defs>
+                    <filter id="filter0_d_47_131" x="0" y="0" width="70" height="70" filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                        <feOffset dy="3" />
+                        <feGaussianBlur stdDeviation="5" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_47_131" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_47_131" result="shape" />
+                    </filter>
+                </defs>
+            </svg>
+            <svg class="popularSwiper-button-next" width="70" height="70" viewBox="0 0 70 70" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_47_129)">
+                    <rect x="10" y="7" width="50" height="50" rx="25" fill="white" shape-rendering="crispEdges" />
+                    <path d="M31 40L38.5805 32.9428C39.1398 32.4221 39.1398 31.5779 38.5805 31.0572L31 24"
+                        stroke="#111827" stroke-width="1.5" stroke-linecap="round" />
+                </g>
+                <defs>
+                    <filter id="filter0_d_47_129" x="0" y="0" width="70" height="70" filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                        <feOffset dy="3" />
+                        <feGaussianBlur stdDeviation="5" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_47_129" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_47_129" result="shape" />
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+
+
+    </div>
+</section>
+		<section class="padding flex">
+    <div class="docs_12">
+        <div class="section__top">
+            <h2 class="section__title _anim-items _anim-no-hide _animate">Наши врачи</h2>
+            <a href="#" class="all-link section__all _anim-items _anim-no-hide _animate" style="height: 35px;">Все врачи
+                <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M11.5 1.5L16.8728 6.87164C16.9576 6.95495 17 7.06414 17 7.17333M11.5 12.5L16.8728 7.47503C16.9576 7.39172 17 7.28253 17 7.17333M17 7.17333H1"
+                        stroke="#0FB967" stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+            </a>
+        </div>
+
+        <div class="cont">
+
+            <div class="swiper docs_12Swiper">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_2.png" alt="">
+                        </div>
+                        <div class="title_cont">
+                            <a class="name">
+                                Апостолова Любовь Вячеславовна
+                            </a>
+                            <div class="box_1">
+                                <p class="skill">
+                                    <span>Стаж</span> 10 лет
+                                </p>
+                                <p class="work">
+                                    УЗИ, УЗИ Детям
+                                </p>
+                            </div>
+                            <div class="box_2">
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_2.png" alt="">
+                        </div>
+                        <div class="title_cont">
+                            <a class="name">
+                                Апостолова Любовь Вячеславовна
+                            </a>
+                            <div class="box_1">
+                                <p class="skill">
+                                    <span>Стаж</span> 10 лет
+                                </p>
+                                <p class="work">
+                                    УЗИ, УЗИ Детям
+                                </p>
+                            </div>
+                            <div class="box_2">
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_2.png" alt="">
+                        </div>
+                        <div class="title_cont">
+                            <a class="name">
+                                Апостолова Любовь Вячеславовна
+                            </a>
+                            <div class="box_1">
+                                <p class="skill">
+                                    <span>Стаж</span> 10 лет
+                                </p>
+                                <p class="work">
+                                    УЗИ, УЗИ Детям
+                                </p>
+                            </div>
+                            <div class="box_2">
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_2.png" alt="">
+                        </div>
+                        <div class="title_cont">
+                            <a class="name">
+                                Апостолова Любовь Вячеславовна
+                            </a>
+                            <div class="box_1">
+                                <p class="skill">
+                                    <span>Стаж</span> 10 лет
+                                </p>
+                                <p class="work">
+                                    УЗИ, УЗИ Детям
+                                </p>
+                            </div>
+                            <div class="box_2">
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_2.png" alt="">
+                        </div>
+                        <div class="title_cont">
+                            <a class="name">
+                                Апостолова Любовь Вячеславовна
+                            </a>
+                            <div class="box_1">
+                                <p class="skill">
+                                    <span>Стаж</span> 10 лет
+                                </p>
+                                <p class="work">
+                                    УЗИ, УЗИ Детям
+                                </p>
+                            </div>
+                            <div class="box_2">
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_2.png" alt="">
+                        </div>
+                        <div class="title_cont">
+                            <a class="name">
+                                Апостолова Любовь Вячеславовна
+                            </a>
+                            <div class="box_1">
+                                <p class="skill">
+                                    <span>Стаж</span> 10 лет
+                                </p>
+                                <p class="work">
+                                    УЗИ, УЗИ Детям
+                                </p>
+                            </div>
+                            <div class="box_2">
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_2.png" alt="">
+                        </div>
+                        <div class="title_cont">
+                            <a class="name">
+                                Апостолова Любовь Вячеславовна
+                            </a>
+                            <div class="box_1">
+                                <p class="skill">
+                                    <span>Стаж</span> 10 лет
+                                </p>
+                                <p class="work">
+                                    УЗИ, УЗИ Детям
+                                </p>
+                            </div>
+                            <div class="box_2">
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_2.png" alt="">
+                        </div>
+                        <div class="title_cont">
+                            <a class="name">
+                                Апостолова Любовь Вячеславовна
+                            </a>
+                            <div class="box_1">
+                                <p class="skill">
+                                    <span>Стаж</span> 10 лет
+                                </p>
+                                <p class="work">
+                                    УЗИ, УЗИ Детям
+                                </p>
+                            </div>
+                            <div class="box_2">
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="./img/img_2.png" alt="">
+                        </div>
+                        <div class="title_cont">
+                            <a class="name">
+                                Апостолова Любовь Вячеславовна
+                            </a>
+                            <div class="box_1">
+                                <p class="skill">
+                                    <span>Стаж</span> 10 лет
+                                </p>
+                                <p class="work">
+                                    УЗИ, УЗИ Детям
+                                </p>
+                            </div>
+                            <div class="box_2">
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                                <div class="adr">
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4" cy="4" r="4" fill="#0FB967" />
+                                    </svg>
+                                    <p>
+                                        ДЦ на Протозанова
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="button_2">
+                                Записаться
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <svg class="docs_12Swiper-button-prev" width="70" height="70" viewBox="0 0 70 70" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_47_131)">
+                    <rect width="50" height="50" rx="25" transform="matrix(-1 0 0 1 60 7)" fill="white"
+                        shape-rendering="crispEdges" />
+                    <path d="M39 40L31.4195 32.9428C30.8602 32.4221 30.8602 31.5779 31.4195 31.0572L39 24"
+                        stroke="#111827" stroke-width="1.5" stroke-linecap="round" />
+                </g>
+                <defs>
+                    <filter id="filter0_d_47_131" x="0" y="0" width="70" height="70" filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                        <feOffset dy="3" />
+                        <feGaussianBlur stdDeviation="5" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_47_131" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_47_131" result="shape" />
+                    </filter>
+                </defs>
+            </svg>
+            <svg class="docs_12Swiper-button-next" width="70" height="70" viewBox="0 0 70 70" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_47_129)">
+                    <rect x="10" y="7" width="50" height="50" rx="25" fill="white" shape-rendering="crispEdges" />
+                    <path d="M31 40L38.5805 32.9428C39.1398 32.4221 39.1398 31.5779 38.5805 31.0572L31 24"
+                        stroke="#111827" stroke-width="1.5" stroke-linecap="round" />
+                </g>
+                <defs>
+                    <filter id="filter0_d_47_129" x="0" y="0" width="70" height="70" filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                        <feOffset dy="3" />
+                        <feGaussianBlur stdDeviation="5" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_47_129" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_47_129" result="shape" />
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+
+    </div>
+</section>
+		<section class="padding flex" style="background-color: #F9FAFB; margin-bottom: 80px;">
+    <div class="about_clinic">
+        <div class="section__top">
+            <h2 class="section__title _anim-items _anim-no-hide _animate">О клинике</h2>
+        </div>
+        <div class="cont_0">
+            <div class="cont_1">
+                <p>
+                    Лабораторная служба выполняет более 2000 наименований исследований для более чем 1500 частных и
+                    государственных медицинских учреждений, оказывает услуги клиентам в 130 городах России, имеет 5
+                    лабораторных комплексов площадью более 6 000 м2 в Москве, Санкт-Петербурге, Екатеринбурге,
+                    Краснодаре и
+                    Новосибирске.
+                </p>
+                <h3>
+                    Наша миссия
+                </h3>
+                <p>
+                    Предоставить доступ к лучшим услугам и специалистам в своей области в одном месте. Мы делаем упор на
+                    качестве предоставляемых услуг и сервисе для наших пациентов.
+                </p>
+
+                <div class="box">
+                    <div class="cont">
+                        <svg width="63" height="83" viewBox="0 0 63 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M35.9499 53.5474L34.4407 55.0268C32.8122 56.6195 30.2054 56.6195 28.5768 55.0268L27.0676 53.5474"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M33.7967 55.5403L38.7478 73.7045L31.506 81L24.2642 73.7045L29.2153 55.5403"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
+                            <path d="M33.7967 55.5403L38.7478 73.7045L31.506 81L24.2642 73.7045L29.2153 55.5403"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
+                            <path
+                                d="M43.6631 73.5311L61.1533 69.9102L58.8388 58.3316C58.3257 55.7785 56.9418 53.458 54.9315 51.7937C53.643 50.7378 52.3426 50.0578 51.1018 49.7834L41.2174 46.9141C41.0026 46.8545 40.7998 46.759 40.6149 46.6337C40.0959 46.2818 39.7499 45.721 39.6783 45.1007L39.219 41.1874C41.9869 39.04 44.033 35.8247 45.0172 32.0725C46.783 31.9174 48.1371 29.9549 48.1371 27.4733C48.1371 25.1826 46.9858 23.3334 45.4109 22.9397"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
+                            <path
+                                d="M17.5174 22.969C15.9903 23.4045 14.8808 25.2298 14.8808 27.4787C14.8808 29.9543 16.2289 31.9109 17.9887 32.078C18.9789 35.8241 21.025 39.0394 23.7869 41.1929L23.3336 45.1061C23.262 45.7325 22.922 46.2932 22.397 46.6451C22.2121 46.7704 22.0093 46.8658 21.7945 46.9255L11.9399 49.7829C10.6633 50.0632 9.35695 50.7433 8.07442 51.8051C6.05219 53.4754 4.66825 55.7959 4.1612 58.343L1.84668 69.9216L17.5115 73.1548"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
+                            <path d="M18.5673 15.9304C17.3683 19.611 17.5174 22.9694 17.5174 22.9694" stroke="#111827"
+                                stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
+                            <path d="M45.4112 22.9409C45.4112 22.9409 45.5782 19.5706 44.3911 15.884" stroke="#111827"
+                                stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
+                            <path
+                                d="M44.391 15.8891C41.7126 17.2552 38.9865 17.5833 36.0039 17.2552C32.8781 16.9092 30.4383 15.4119 27.6525 14.1413C25.7197 13.2585 23.4828 12.6798 21.4904 13.4076C20.2615 13.855 19.14 14.7557 18.5674 15.9309"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
+                            <path d="M39.571 44.1826L31.506 51.4006L23.4409 44.1826" stroke="#111827" stroke-width="2"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M44.385 63.5879L53.5119 61.8699" stroke="#111827" stroke-width="2"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M18.3108 16.7722V5.31885C18.3108 2.93275 20.2435 1 22.6296 1H40.0721C42.4582 1 44.3909 2.93275 44.3909 5.31885V15.8893"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
+                            <path d="M31.3508 10.9382V4.89539" stroke="#0FB967" stroke-width="2" stroke-miterlimit="10"
+                                stroke-linecap="round" />
+                            <path d="M28.3264 7.92029H34.3752" stroke="#0FB967" stroke-width="2" stroke-miterlimit="10"
+                                stroke-linecap="round" />
+                            <path
+                                d="M28.0105 72.5588L31.5061 76.3766L35.0018 72.5588L33.3315 66.2595C31.8283 67.1722 30.325 67.7807 29.1737 68.1744L28.0105 72.5588Z"
+                                fill="#FC7C68" />
+                        </svg>
+                        Врачи высокой квалицикации
+                    </div>
+                    <div class="cont">
+                        <svg width="101" height="80" viewBox="0 0 101 80" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M40.1558 15.0337L50.4738 20.7651L50.7207 35.5949L38.0009 43.2192L25.0417 36.0139L24.7948 21.1916L34.9183 15.116"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" />
+                            <path
+                                d="M73.7959 36.732L63.6799 42.8001L50.7132 35.5947L50.4738 20.7649L63.1861 13.1405L76.1528 20.3459L76.3473 32.1454"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" />
+                            <path d="M33.766 7.31151C37.2153 5.23893 41.6972 6.36127 43.7697 9.81057" stroke="#111827"
+                                stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
+                            <path
+                                d="M40.1109 12.0027C39.2505 10.5662 37.3874 10.1023 35.9583 10.9627C34.5217 11.8232 34.0578 13.6863 34.9183 15.1154C35.7787 16.5519 37.6418 17.0158 39.0709 16.1554C40.5075 15.3024 40.9714 13.4393 40.1109 12.0027Z"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" />
+                            <path d="M83.2609 31.5009C85.2811 34.8753 84.1812 39.2599 80.8142 41.2801" stroke="#111827"
+                                stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
+                            <path
+                                d="M78.9961 33.612C78.1356 32.1754 76.2726 31.7115 74.8434 32.572C73.4069 33.4324 72.943 35.2955 73.8034 36.7246C74.6639 38.1612 76.527 38.6251 77.9561 37.7646C79.3927 36.9117 79.8565 35.0486 78.9961 33.612Z"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" />
+                            <path d="M63.6799 42.7998L63.6051 46.1743" stroke="#111827" stroke-width="2"
+                                stroke-miterlimit="10" />
+                            <path
+                                d="M65.8648 47.4685C65.1091 46.204 63.463 45.7925 62.1985 46.5482C60.934 47.3039 60.5225 48.95 61.2782 50.2145C62.0339 51.479 63.68 51.8905 64.9445 51.1348C66.2164 50.3791 66.628 48.7405 65.8648 47.4685Z"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" />
+                            <path d="M24.7947 21.192L21.3529 19.2542" stroke="#111827" stroke-width="2"
+                                stroke-miterlimit="10" />
+                            <path
+                                d="M19.1906 20.5033C20.6122 20.234 21.54 18.8572 21.2707 17.4431C21.0013 16.0215 19.6246 15.0937 18.2104 15.363C16.7888 15.6324 15.861 17.0091 16.1304 18.4308C16.3997 19.8449 17.769 20.7802 19.1906 20.5033Z"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" />
+                            <path
+                                d="M47.1891 27.2826L44.5853 32.146L37.9336 35.7824L31.2744 32.146L28.678 27.2826L28.6406 27.4248L28.7454 33.7921L37.9336 38.895L47.1217 33.7921L47.2265 27.4248L47.1891 27.2826Z"
+                                fill="#FC7C68" />
+                            <path
+                                d="M53.9531 29.0779L56.5569 24.2145L63.2086 20.5781L69.8678 24.2145L72.4641 29.0779L72.5015 28.9357L72.3968 22.5684L63.2086 17.458L54.0204 22.5684L53.9156 28.9357L53.9531 29.0779Z"
+                                fill="#FC7C68" />
+                            <path
+                                d="M88.0871 56.1918H12.9131C10.848 56.1918 9.172 54.5158 9.172 52.4507V4.86367C9.172 2.79858 10.848 1.12256 12.9131 1.12256H88.0871C90.1522 1.12256 91.8282 2.79858 91.8282 4.86367V52.4507C91.8282 54.5158 90.1522 56.1918 88.0871 56.1918Z"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M91.1622 55.04L98.7118 74.7707C99.8117 76.5739 98.5098 78.8859 96.3998 78.8859H50.4963H4.59284C2.48285 78.8859 1.18094 76.5739 2.28083 74.7707L9.8304 55.04"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M32.0078 73.4393H68.9925" stroke="#111827" stroke-width="2" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        Современное диагностическое
+                        оборудование
+                    </div>
+                    <div class="cont">
+                        <svg width="67" height="82" viewBox="0 0 67 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36.4641 21.4783H44.3393V29.3535L36.4641 21.4783Z" fill="#0FB967" />
+                            <path d="M4.5603 77.8455V69.9651L12.4408 77.8455H4.5603Z" fill="#0FB967" />
+                            <path d="M31.9797 18.6993H47.118V67.4054V81H33.5234H1.78174V18.6993H16.9252"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" />
+                            <path d="M24.45 38.1343H35.4334" stroke="#111827" stroke-width="2" stroke-miterlimit="10"
+                                stroke-linecap="round" />
+                            <path d="M24.45 49.8506H35.4334" stroke="#111827" stroke-width="2" stroke-miterlimit="10"
+                                stroke-linecap="round" />
+                            <path d="M24.45 61.5669H35.4334" stroke="#111827" stroke-width="2" stroke-miterlimit="10"
+                                stroke-linecap="round" />
+                            <path
+                                d="M16.9199 16.0781V23.8225C16.9199 24.5551 17.5112 25.1464 18.2438 25.1464H18.7775C19.4421 25.1464 20.0072 24.6545 20.0909 23.99L20.1119 23.8278C20.4154 21.5149 22.3829 19.7881 24.7114 19.7881C27.04 19.7881 29.0127 21.5149 29.311 23.8278L29.3319 23.99C29.4156 24.6493 29.9808 25.1464 30.6453 25.1464C31.3779 25.1464 31.9692 24.5551 31.9692 23.8225V16.0781C31.9692 15.513 31.5087 15.0525 30.9436 15.0525H17.9455C17.3804 15.0525 16.9199 15.513 16.9199 16.0781Z"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" />
+                            <path d="M17.6367 47.1599L13.55 51.4926L11.572 49.5146" stroke="#111827" stroke-width="2"
+                                stroke-miterlimit="10" />
+                            <path d="M11.572 40.5734L16.4437 35.6965" stroke="#111827" stroke-width="2"
+                                stroke-miterlimit="10" />
+                            <path d="M16.4437 40.5734L11.572 35.6965" stroke="#111827" stroke-width="2"
+                                stroke-miterlimit="10" />
+                            <path d="M11.572 64.0046L16.4437 59.1277" stroke="#111827" stroke-width="2"
+                                stroke-miterlimit="10" />
+                            <path d="M16.4437 64.0046L11.572 59.1277" stroke="#111827" stroke-width="2"
+                                stroke-miterlimit="10" />
+                            <path
+                                d="M40.4878 13.3652C40.4878 6.5343 46.0221 1 52.853 1C59.6839 1 65.2182 6.5343 65.2182 13.3652C65.2182 20.1961 59.6839 25.7304 52.853 25.7304"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
+                            <path d="M52.853 13.3647V9.57507" stroke="#111827" stroke-width="2" stroke-miterlimit="10"
+                                stroke-linecap="round" />
+                            <path d="M40.4878 13.3652H43.9876" stroke="#111827" stroke-width="2" stroke-miterlimit="10"
+                                stroke-linecap="round" />
+                            <path d="M52.853 25.7315V22.2317" stroke="#111827" stroke-width="2" stroke-miterlimit="10"
+                                stroke-linecap="round" />
+                            <path
+                                d="M52.853 4.01392V7.02879C56.3475 7.02879 59.1938 9.875 59.1938 13.3695H62.2086C62.2034 8.20944 58.0078 4.01392 52.853 4.01392Z"
+                                fill="#FC7C68" />
+                            <path d="M52.853 13.3652L57.0117 17.5239" stroke="#111827" stroke-width="2"
+                                stroke-miterlimit="10" stroke-linecap="round" />
+                        </svg>
+                        Быстрое получение результата
+                    </div>
+                    <div class="cont">
+                        <svg width="81" height="81" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M46.1583 70.8461C42.9599 71.825 39.568 72.3463 36.0573 72.3463C16.6924 72.3463 1.00061 56.3722 1.00061 36.6731C1.00061 16.9677 16.6987 1 36.0573 1C55.4159 1 71.114 16.9741 71.114 36.6731C71.114 39.5527 70.7767 42.3559 70.1457 45.0384"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M62.9417 79.6938C72.9147 78.9725 80.4248 70.1608 79.716 60.0124C79.0071 49.864 70.3477 42.2219 60.3747 42.9432C50.4016 43.6645 42.8915 52.4762 43.6004 62.6246C44.3093 72.773 52.9687 80.4152 62.9417 79.6938Z"
+                                stroke="#111827" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M36.0573 29.05V44.2931" stroke="#0FB967" stroke-width="2" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M43.5469 36.6714H28.5673" stroke="#0FB967" stroke-width="2" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M36.0572 12.0294C22.6767 12.0294 11.8324 23.0644 11.8324 36.6802C11.8324 50.296 22.6767 61.3311 36.0572 61.3311C37.3316 61.3311 38.5872 61.2294 39.8053 61.0387C39.849 57.7714 40.5861 54.6757 41.873 51.8915C40.0677 52.6098 38.1062 53.0039 36.0572 53.0039C27.1994 53.0039 20.0219 45.7002 20.0219 36.6866C20.0219 27.673 27.1994 20.3693 36.0572 20.3693C44.9151 20.3693 52.0926 27.673 52.0926 36.6866C52.0926 38.4601 51.8115 40.1637 51.2993 41.7592C53.9729 40.2908 56.9713 39.3691 60.1634 39.1466C60.2446 38.3393 60.2821 37.5193 60.2821 36.6866C60.2821 23.0644 49.4378 12.0294 36.0572 12.0294Z"
+                                fill="#0FB967" />
+                            <path
+                                d="M56.6193 67.464V56.6352H56.5809L54.4113 58.152C54.2769 58.248 54.2001 58.2096 54.2001 58.0368V56.616C54.2001 56.52 54.2385 56.424 54.3345 56.3472L56.5809 54.7152C56.6769 54.6384 56.7921 54.6 56.8881 54.6H58.0401C58.1745 54.6 58.2321 54.6576 58.2321 54.792V67.464C58.2321 67.5984 58.1745 67.656 58.0401 67.656H56.8113C56.6769 67.656 56.6193 67.5984 56.6193 67.464Z"
+                                fill="#FC7C68" />
+                            <path
+                                d="M67.0255 67.464V56.6352H66.9871L64.8175 58.152C64.6831 58.248 64.6063 58.2096 64.6063 58.0368V56.616C64.6063 56.52 64.6447 56.424 64.7407 56.3472L66.9871 54.7152C67.0831 54.6384 67.1983 54.6 67.2943 54.6H68.4463C68.5807 54.6 68.6383 54.6576 68.6383 54.792V67.464C68.6383 67.5984 68.5807 67.656 68.4463 67.656H67.2175C67.0831 67.656 67.0255 67.5984 67.0255 67.464Z"
+                                fill="#FC7C68" />
+                        </svg>
+                        11 центров
+                        в Тюмени
+                    </div>
+                </div>
+            </div>
+            <div class="cont_2">
+
+            </div>
+        </div>
+
+    </div>
+</section>
+		<section class="padding flex">
+    <div class="map">
+        <div id="map" class="maps">
+            <div class="page__container maps__container">
+                <div class="maps__absolute">
+                    <h2 class="maps__absolute-title">Контакты</h2>
+                    <ul class="list">
+                        <li class="list-item">
+                            <a data-map="25674" class="active">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a data-map="25674">
+                                <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.6568 2.83165C12.1459 1.32807 10.1369 0.5 8 0.5C5.86311 0.5 3.85412 1.32807 2.34315 2.83165C0.832141 4.3353 0 6.33443 0 8.46086C0 12.2123 2.63554 15.451 6.29688 16.2403L8 18.5L9.70315 16.2402C13.3645 15.451 16 12.2123 16 8.46086C16 6.33443 15.1679 4.3353 13.6568 2.83165ZM8 2.57828C11.2401 2.57828 13.8761 5.20142 13.8761 8.42564C13.8761 11.6499 11.2401 14.273 8 14.273C4.75989 14.273 2.12389 11.6499 2.12389 8.42564C2.12389 5.20142 4.75989 2.57828 8 2.57828Z"
+                                        fill="#46B554" />
+                                    <mask id="mask0_41_811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3"
+                                        y="3" width="10" height="11">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </mask>
+                                    <g mask="url(#mask0_41_811)">
+                                        <path
+                                            d="M7.99995 13.217C10.6587 13.217 12.8141 11.0721 12.8141 8.42635C12.8141 5.78057 10.6587 3.63574 7.99995 3.63574C5.34116 3.63574 3.18579 5.78057 3.18579 8.42635C3.18579 11.0721 5.34116 13.217 7.99995 13.217Z"
+                                            fill="#46B554" />
+                                    </g>
+                                </svg>
+                                <span class="list-text">ЛП на Московском</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="yand">
+
+            </div>
+        </div>
+    </div>
+</section>
+	</main>
+	<footer class="">
+    <div class="footer__container">
+        <div class="top_foot">
+            <div class="top_width_foot">
+                <div class="cont_link_round">
+                    <a class="round" href="">
+                        <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="0.972656" width="32" height="32" rx="16" fill="#0FB967" />
+                            <g clip-path="url(#clip0_29_421)">
+                                <path
+                                    d="M25.0001 9.74763L22.1531 24.1012C22.1531 24.1012 21.7552 25.0965 20.6601 24.6187L14.0609 19.5678C14.9479 18.7705 21.829 12.584 22.1299 12.3035C22.5951 11.8693 22.3064 11.6109 21.7657 11.9393L11.6017 18.394L7.68037 17.0738C7.68037 17.0738 7.06302 16.8548 7.00361 16.377C6.94384 15.8993 7.7004 15.6405 7.7004 15.6405L23.6863 9.36935C23.6863 9.36935 25.0001 8.79209 25.0001 9.74763Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_29_421">
+                                    <rect width="18" height="18" fill="white" transform="translate(7 7.97266)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a class="round" href="">
+                        <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="0.972656" width="32" height="32" rx="16" fill="#0FB967" />
+                            <g clip-path="url(#clip0_29_432)">
+                                <path
+                                    d="M24.9046 21.1127C24.8828 21.0657 24.8625 21.0267 24.8436 20.9955C24.5313 20.433 23.9345 19.7427 23.0536 18.9242L23.0349 18.9054L23.0256 18.8962L23.0162 18.8868H23.0068C22.6069 18.5057 22.3538 18.2494 22.2477 18.1182C22.0537 17.8683 22.0103 17.6153 22.1163 17.359C22.1912 17.1653 22.4726 16.7563 22.9598 16.1314C23.216 15.8002 23.419 15.5348 23.5689 15.3348C24.6499 13.8977 25.1185 12.9794 24.9747 12.5795L24.9189 12.486C24.8814 12.4298 24.7845 12.3783 24.6285 12.3314C24.4721 12.2845 24.2723 12.2768 24.0285 12.308L21.3295 12.3266C21.2858 12.3112 21.2234 12.3126 21.142 12.3314C21.0608 12.3501 21.0201 12.3596 21.0201 12.3596L20.9732 12.383L20.9359 12.4112C20.9046 12.4299 20.8703 12.4627 20.8327 12.5095C20.7954 12.5563 20.7642 12.6111 20.7392 12.6735C20.4454 13.4295 20.1113 14.1324 19.7363 14.7822C19.5051 15.1696 19.2928 15.5054 19.0989 15.7897C18.9053 16.0739 18.7428 16.2833 18.6117 16.4175C18.4804 16.5518 18.3619 16.6595 18.2555 16.7408C18.1493 16.8221 18.0682 16.8565 18.012 16.8439C17.9557 16.8314 17.9027 16.8189 17.8525 16.8064C17.7651 16.7501 17.6948 16.6736 17.6418 16.5768C17.5885 16.48 17.5527 16.3581 17.5339 16.2113C17.5153 16.0643 17.5042 15.938 17.5011 15.8317C17.4982 15.7256 17.4995 15.5755 17.5059 15.3818C17.5124 15.188 17.5153 15.0569 17.5153 14.9882C17.5153 14.7507 17.5199 14.493 17.5292 14.215C17.5387 13.937 17.5463 13.7167 17.5527 13.5544C17.5591 13.3919 17.562 13.2201 17.562 13.0389C17.562 12.8577 17.551 12.7156 17.5292 12.6124C17.5077 12.5094 17.4746 12.4094 17.431 12.3125C17.3872 12.2157 17.3231 12.1408 17.2389 12.0876C17.1546 12.0345 17.0498 11.9923 16.925 11.961C16.5938 11.8861 16.1721 11.8455 15.6597 11.8392C14.4976 11.8268 13.7509 11.9018 13.4198 12.0642C13.2886 12.1329 13.1699 12.2267 13.0637 12.3453C12.9512 12.4828 12.9355 12.5578 13.0167 12.5702C13.3917 12.6263 13.6571 12.7607 13.8133 12.9731L13.8696 13.0857C13.9134 13.1669 13.9571 13.3106 14.0009 13.5168C14.0446 13.7229 14.0728 13.951 14.0852 14.2008C14.1164 14.6569 14.1164 15.0474 14.0852 15.3723C14.0539 15.6972 14.0243 15.9502 13.9961 16.1314C13.968 16.3126 13.9258 16.4594 13.8696 16.5719C13.8133 16.6843 13.7759 16.7531 13.7571 16.778C13.7383 16.803 13.7227 16.8187 13.7103 16.8249C13.6291 16.856 13.5446 16.8718 13.4572 16.8718C13.3697 16.8718 13.2635 16.828 13.1386 16.7405C13.0137 16.653 12.8841 16.5328 12.7497 16.3797C12.6154 16.2266 12.4638 16.0126 12.2951 15.7377C12.1265 15.4628 11.9515 15.138 11.7703 14.7631L11.6204 14.4912C11.5267 14.3164 11.3987 14.0617 11.2362 13.7275C11.0736 13.3932 10.93 13.0698 10.8051 12.7574C10.7551 12.6262 10.6801 12.5263 10.5802 12.4576L10.5333 12.4294C10.5021 12.4044 10.452 12.3779 10.3834 12.3497C10.3146 12.3215 10.2428 12.3013 10.1678 12.2888L7.59991 12.3075C7.33751 12.3075 7.15947 12.3669 7.06572 12.4857L7.0282 12.5418C7.00945 12.5731 7 12.6231 7 12.6918C7 12.7606 7.01874 12.8449 7.05626 12.9448C7.43113 13.8258 7.83878 14.6755 8.27923 15.494C8.71968 16.3125 9.10243 16.9718 9.42723 17.4713C9.7521 17.9712 10.0832 18.443 10.4207 18.8864C10.7581 19.3301 10.9814 19.6144 11.0907 19.7393C11.2001 19.8644 11.286 19.958 11.3485 20.0204L11.5828 20.2453C11.7328 20.3953 11.953 20.5749 12.2435 20.7842C12.5341 20.9936 12.8558 21.1997 13.2088 21.4029C13.5619 21.6058 13.9726 21.7714 14.4413 21.8994C14.9099 22.0276 15.3659 22.0791 15.8096 22.0543H16.8874C17.1059 22.0354 17.2716 21.9666 17.3841 21.848L17.4214 21.801C17.4465 21.7637 17.4699 21.7058 17.4916 21.6279C17.5135 21.5498 17.5244 21.4637 17.5244 21.3701C17.518 21.1015 17.5385 20.8594 17.5852 20.6439C17.6319 20.4284 17.6852 20.266 17.7447 20.1566C17.8042 20.0473 17.8714 19.955 17.9461 19.8803C18.0211 19.8053 18.0744 19.7599 18.1057 19.7443C18.1369 19.7286 18.1617 19.7179 18.1805 19.7115C18.3304 19.6616 18.5069 19.7099 18.7101 19.8569C18.9132 20.0037 19.1037 20.185 19.2819 20.4005C19.4599 20.6161 19.6739 20.8581 19.9238 21.1267C20.1738 21.3954 20.3924 21.5952 20.5798 21.7266L20.7671 21.839C20.8923 21.9141 21.0547 21.9828 21.2547 22.0453C21.4543 22.1077 21.6292 22.1233 21.7794 22.0921L24.1785 22.0547C24.4158 22.0547 24.6004 22.0154 24.7314 21.9374C24.8626 21.8593 24.9406 21.7733 24.9657 21.6797C24.9908 21.586 24.9922 21.4797 24.9705 21.3609C24.9483 21.2424 24.9264 21.1595 24.9046 21.1127Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_29_432">
+                                    <rect width="18" height="18" fill="white" transform="translate(7 7.97266)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a class="wrote">
+                        Написать директору
+                    </a>
+                </div>
+                <ul class="foot__menu">
+                    <li>
+                        <a href="">
+                            О клинике
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Пациенту
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Отзывы
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+                <div class="city_cont">
+                    <div class="header__submenu-item with-map">
+                        <a href="javascript:void(0)" class="header__submenu-link">
+                            <svg width="18" height="21" viewBox="0 0 18 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.7276 14.8002L9.00003 20.5278L3.27243 14.8002C2.13963 13.6674 1.36819 12.2241 1.05566 10.6529C0.743128 9.08161 0.903541 7.45297 1.51661 5.9729C2.12969 4.49282 3.16788 3.22778 4.49992 2.33775C5.83196 1.44771 7.398 0.972656 9.00003 0.972656C10.6021 0.972656 12.1681 1.44771 13.5001 2.33775C14.8322 3.22778 15.8704 4.49282 16.4834 5.9729C17.0965 7.45297 17.2569 9.08161 16.9444 10.6529C16.6319 12.2241 15.8604 13.6674 14.7276 14.8002ZM9.00003 12.6726C9.95481 12.6726 10.8705 12.2933 11.5456 11.6182C12.2207 10.943 12.6 10.0274 12.6 9.07259C12.6 8.11781 12.2207 7.20213 11.5456 6.527C10.8705 5.85187 9.95481 5.47259 9.00003 5.47259C8.04525 5.47259 7.12957 5.85187 6.45444 6.527C5.77931 7.20213 5.40003 8.11781 5.40003 9.07259C5.40003 10.0274 5.77931 10.943 6.45444 11.6182C7.12957 12.2933 8.04525 12.6726 9.00003 12.6726ZM9.00003 10.8726C8.52264 10.8726 8.0648 10.6829 7.72724 10.3454C7.38967 10.0078 7.20003 9.54998 7.20003 9.07259C7.20003 8.5952 7.38967 8.13736 7.72724 7.79979C8.0648 7.46223 8.52264 7.27259 9.00003 7.27259C9.47742 7.27259 9.93526 7.46223 10.2728 7.79979C10.6104 8.13736 10.8 8.5952 10.8 9.07259C10.8 9.54998 10.6104 10.0078 10.2728 10.3454C9.93526 10.6829 9.47742 10.8726 9.00003 10.8726Z"
+                                    fill="#0FB967" />
+                            </svg>
+                            <span>Тюмень</span>
+                            <svg class="row" width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.99985 1.06075C9.00277 0.94611 8.96421 0.833533 8.88947 0.738671C8.81472 0.643808 8.70749 0.571373 8.58277 0.531436C8.45805 0.491499 8.32201 0.486045 8.19353 0.515831C8.06504 0.545618 7.95057 0.609165 7.86594 0.697638L4.51035 4.07338L1.15595 0.697637C1.10375 0.636436 1.03749 0.585182 0.961251 0.547084C0.885011 0.508986 0.80044 0.484865 0.712881 0.476232C0.625322 0.467598 0.536657 0.474639 0.452402 0.496912C0.368147 0.519185 0.290111 0.556211 0.223228 0.605672C0.156346 0.655132 0.102093 0.715961 0.0637512 0.784349C0.0254097 0.852738 0.00387476 0.927213 0.000476814 1.00311C-0.00292113 1.07901 0.0118513 1.15469 0.0439644 1.22542C0.0760774 1.29615 0.124789 1.36041 0.187051 1.41416L4.02402 5.27908C4.08412 5.33977 4.15871 5.38851 4.24278 5.42193C4.32685 5.45535 4.41836 5.47266 4.51094 5.47266C4.60352 5.47266 4.69503 5.45535 4.7791 5.42193C4.86317 5.38851 4.93784 5.33977 4.99794 5.27908L8.8386 1.41416C8.93922 1.31653 8.99628 1.1913 8.99985 1.06075Z"
+                                    fill="#111827" />
+                            </svg>
+
+                        </a>
+                        <!-- <div class="cc">
+                            <div class="cc__close popup__close">✖</div>
+                            <div class="cc__container">
+                                <div class="cc__title">Ваш город Тюмень?</div>
+                                <div class="cc__buttons">
+                                    <button class="btn cc__yes">Да</button>
+                                    <button class="btn cc__not">Нет</button>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <a href="#map" class="header__contacts-map">
+                        Центров в Тюмени - <b>11</b>
+                    </a>
+                    <a href="tel:+73452219543" class="phone">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.1 12.9506V16.133C17.1001 16.3608 17.0138 16.5802 16.8585 16.7469C16.7031 16.9136 16.4903 17.0152 16.263 17.0312C15.8697 17.0582 15.5484 17.0726 15.3 17.0726C7.34672 17.0726 0.900024 10.6259 0.900024 2.67256C0.900024 2.42416 0.913524 2.10286 0.941424 1.70956C0.957375 1.48226 1.05895 1.26947 1.22565 1.11413C1.39235 0.958785 1.61177 0.872456 1.83962 0.872559H5.02202C5.13366 0.872446 5.24135 0.913832 5.32418 0.988677C5.40701 1.06352 5.45906 1.16648 5.47022 1.27756C5.49092 1.48456 5.50983 1.64926 5.52782 1.77436C5.70669 3.02259 6.07323 4.23661 6.61503 5.37526C6.70053 5.55526 6.64473 5.77036 6.48273 5.88556L4.54052 7.27336C5.72803 10.0404 7.93312 12.2455 10.7001 13.433L12.0861 11.4944C12.1428 11.4152 12.2254 11.3584 12.3197 11.3338C12.4139 11.3093 12.5138 11.3187 12.6018 11.3603C13.7403 11.901 14.954 12.2667 16.2018 12.4448C16.3269 12.4628 16.4916 12.4826 16.6968 12.5024C16.8077 12.5137 16.9105 12.5659 16.9851 12.6487C17.0598 12.7315 17.1011 12.8391 17.1009 12.9506H17.1Z"
+                                fill="#0FB967" />
+                        </svg>
+
+                        <p>7 (3452) <span>21-95-43</span></p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom_foot">
+            <div class="cont_1">
+                <p class="copy">
+                    2021 © Сеть лабораторий «Хеликс» В ТЮМЕНИ
+                </p>
+                <div class="box">
+                    <a class="link_1" href="">
+                        Правовая информация
+                    </a>
+                    <a class="link_1" href="">
+                        ПРАВИЛА Обработка персональных данных
+                    </a>
+                    <div class="cont_link_round">
+                        <a class="round" href="">
+                            <svg width="32" height="33" viewBox="0 0 32 33" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect y="0.972656" width="32" height="32" rx="16" fill="#0FB967" />
+                                <g clip-path="url(#clip0_29_421)">
+                                    <path
+                                        d="M25.0001 9.74763L22.1531 24.1012C22.1531 24.1012 21.7552 25.0965 20.6601 24.6187L14.0609 19.5678C14.9479 18.7705 21.829 12.584 22.1299 12.3035C22.5951 11.8693 22.3064 11.6109 21.7657 11.9393L11.6017 18.394L7.68037 17.0738C7.68037 17.0738 7.06302 16.8548 7.00361 16.377C6.94384 15.8993 7.7004 15.6405 7.7004 15.6405L23.6863 9.36935C23.6863 9.36935 25.0001 8.79209 25.0001 9.74763Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_29_421">
+                                        <rect width="18" height="18" fill="white" transform="translate(7 7.97266)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <a class="round" href="">
+                            <svg width="32" height="33" viewBox="0 0 32 33" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect y="0.972656" width="32" height="32" rx="16" fill="#0FB967" />
+                                <g clip-path="url(#clip0_29_432)">
+                                    <path
+                                        d="M24.9046 21.1127C24.8828 21.0657 24.8625 21.0267 24.8436 20.9955C24.5313 20.433 23.9345 19.7427 23.0536 18.9242L23.0349 18.9054L23.0256 18.8962L23.0162 18.8868H23.0068C22.6069 18.5057 22.3538 18.2494 22.2477 18.1182C22.0537 17.8683 22.0103 17.6153 22.1163 17.359C22.1912 17.1653 22.4726 16.7563 22.9598 16.1314C23.216 15.8002 23.419 15.5348 23.5689 15.3348C24.6499 13.8977 25.1185 12.9794 24.9747 12.5795L24.9189 12.486C24.8814 12.4298 24.7845 12.3783 24.6285 12.3314C24.4721 12.2845 24.2723 12.2768 24.0285 12.308L21.3295 12.3266C21.2858 12.3112 21.2234 12.3126 21.142 12.3314C21.0608 12.3501 21.0201 12.3596 21.0201 12.3596L20.9732 12.383L20.9359 12.4112C20.9046 12.4299 20.8703 12.4627 20.8327 12.5095C20.7954 12.5563 20.7642 12.6111 20.7392 12.6735C20.4454 13.4295 20.1113 14.1324 19.7363 14.7822C19.5051 15.1696 19.2928 15.5054 19.0989 15.7897C18.9053 16.0739 18.7428 16.2833 18.6117 16.4175C18.4804 16.5518 18.3619 16.6595 18.2555 16.7408C18.1493 16.8221 18.0682 16.8565 18.012 16.8439C17.9557 16.8314 17.9027 16.8189 17.8525 16.8064C17.7651 16.7501 17.6948 16.6736 17.6418 16.5768C17.5885 16.48 17.5527 16.3581 17.5339 16.2113C17.5153 16.0643 17.5042 15.938 17.5011 15.8317C17.4982 15.7256 17.4995 15.5755 17.5059 15.3818C17.5124 15.188 17.5153 15.0569 17.5153 14.9882C17.5153 14.7507 17.5199 14.493 17.5292 14.215C17.5387 13.937 17.5463 13.7167 17.5527 13.5544C17.5591 13.3919 17.562 13.2201 17.562 13.0389C17.562 12.8577 17.551 12.7156 17.5292 12.6124C17.5077 12.5094 17.4746 12.4094 17.431 12.3125C17.3872 12.2157 17.3231 12.1408 17.2389 12.0876C17.1546 12.0345 17.0498 11.9923 16.925 11.961C16.5938 11.8861 16.1721 11.8455 15.6597 11.8392C14.4976 11.8268 13.7509 11.9018 13.4198 12.0642C13.2886 12.1329 13.1699 12.2267 13.0637 12.3453C12.9512 12.4828 12.9355 12.5578 13.0167 12.5702C13.3917 12.6263 13.6571 12.7607 13.8133 12.9731L13.8696 13.0857C13.9134 13.1669 13.9571 13.3106 14.0009 13.5168C14.0446 13.7229 14.0728 13.951 14.0852 14.2008C14.1164 14.6569 14.1164 15.0474 14.0852 15.3723C14.0539 15.6972 14.0243 15.9502 13.9961 16.1314C13.968 16.3126 13.9258 16.4594 13.8696 16.5719C13.8133 16.6843 13.7759 16.7531 13.7571 16.778C13.7383 16.803 13.7227 16.8187 13.7103 16.8249C13.6291 16.856 13.5446 16.8718 13.4572 16.8718C13.3697 16.8718 13.2635 16.828 13.1386 16.7405C13.0137 16.653 12.8841 16.5328 12.7497 16.3797C12.6154 16.2266 12.4638 16.0126 12.2951 15.7377C12.1265 15.4628 11.9515 15.138 11.7703 14.7631L11.6204 14.4912C11.5267 14.3164 11.3987 14.0617 11.2362 13.7275C11.0736 13.3932 10.93 13.0698 10.8051 12.7574C10.7551 12.6262 10.6801 12.5263 10.5802 12.4576L10.5333 12.4294C10.5021 12.4044 10.452 12.3779 10.3834 12.3497C10.3146 12.3215 10.2428 12.3013 10.1678 12.2888L7.59991 12.3075C7.33751 12.3075 7.15947 12.3669 7.06572 12.4857L7.0282 12.5418C7.00945 12.5731 7 12.6231 7 12.6918C7 12.7606 7.01874 12.8449 7.05626 12.9448C7.43113 13.8258 7.83878 14.6755 8.27923 15.494C8.71968 16.3125 9.10243 16.9718 9.42723 17.4713C9.7521 17.9712 10.0832 18.443 10.4207 18.8864C10.7581 19.3301 10.9814 19.6144 11.0907 19.7393C11.2001 19.8644 11.286 19.958 11.3485 20.0204L11.5828 20.2453C11.7328 20.3953 11.953 20.5749 12.2435 20.7842C12.5341 20.9936 12.8558 21.1997 13.2088 21.4029C13.5619 21.6058 13.9726 21.7714 14.4413 21.8994C14.9099 22.0276 15.3659 22.0791 15.8096 22.0543H16.8874C17.1059 22.0354 17.2716 21.9666 17.3841 21.848L17.4214 21.801C17.4465 21.7637 17.4699 21.7058 17.4916 21.6279C17.5135 21.5498 17.5244 21.4637 17.5244 21.3701C17.518 21.1015 17.5385 20.8594 17.5852 20.6439C17.6319 20.4284 17.6852 20.266 17.7447 20.1566C17.8042 20.0473 17.8714 19.955 17.9461 19.8803C18.0211 19.8053 18.0744 19.7599 18.1057 19.7443C18.1369 19.7286 18.1617 19.7179 18.1805 19.7115C18.3304 19.6616 18.5069 19.7099 18.7101 19.8569C18.9132 20.0037 19.1037 20.185 19.2819 20.4005C19.4599 20.6161 19.6739 20.8581 19.9238 21.1267C20.1738 21.3954 20.3924 21.5952 20.5798 21.7266L20.7671 21.839C20.8923 21.9141 21.0547 21.9828 21.2547 22.0453C21.4543 22.1077 21.6292 22.1233 21.7794 22.0921L24.1785 22.0547C24.4158 22.0547 24.6004 22.0154 24.7314 21.9374C24.8626 21.8593 24.9406 21.7733 24.9657 21.6797C24.9908 21.586 24.9922 21.4797 24.9705 21.3609C24.9483 21.2424 24.9264 21.1595 24.9046 21.1127Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_29_432">
+                                        <rect width="18" height="18" fill="white" transform="translate(7 7.97266)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="cont_2">
+                <span>
+                    Имеются противопоказания, требуется консультация специалиста
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="sogl">
+    <div class="cont">
+        <p>
+            Продолжая использовать этот сайт и нажимая кнопку «Принимаю»,
+            вы даете <a href="">согласие на обработку файлов cookie</a> и использование Яндекс.Метрики.
+        </p>
+        <a class="button">
+            Принимаю
+        </a>
+    </div>
+</div>
+	<script src="./js/jquery-3.7.1.min.js"></script>
+	<script src="./js/swiper-bundle.js"></script>
+	<script src="./js/index.js"></script>
+</body>
+
+</html>

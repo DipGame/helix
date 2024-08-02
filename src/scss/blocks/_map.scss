@@ -1,0 +1,122 @@
+.map {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto 135px;
+    background-color: #F9FAFB;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .maps {
+        display: flex;
+    }
+
+    .maps__absolute {
+        width: 410px;
+        height: fit-content;
+        padding: 40px 30px 60px;
+        position: static;
+        border: 1px solid red;
+    }
+
+    .maps__absolute-title {
+        font-family: DIN Next W1G;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 54px;
+        text-align: left;
+    }
+
+    .maps .list {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        max-height: 400px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .maps .list::-webkit-scrollbar-track {
+        background: white;
+    }
+
+    .maps .list::-webkit-scrollbar-thumb {
+        background-color: gray;
+        border-radius: 20px;
+    }
+
+    .maps .list::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .maps {
+
+        li {
+
+            a {
+                display: flex;
+                gap: 10px;
+                padding: 10px;
+                align-items: center;
+            }
+
+            a.active {
+                background-color: #FFF;
+            }
+
+            a:hover {
+                background-color: #FFF;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .map .maps {
+        flex-direction: column;
+    }
+
+    .map .maps__absolute {
+        width: 100%;
+
+
+    }
+
+    .maps .list {
+        display: none;
+    }
+
+    .maps__absolute-title {
+        position: relative;
+    }
+
+    .maps__absolute-title::after {
+        right: 0;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .maps__absolute-title::before {
+        right: 8px;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .maps__absolute-title::before, .maps__absolute-title::after {
+        position: absolute;
+        content: "";
+        top: 50%;
+        width: 12px;
+        height: 2px;
+        background: #111827;
+        -webkit-transition: -webkit-transform 0.2s ease-in;
+        transition: -webkit-transform 0.2s ease-in;
+        -o-transition: transform 0.2s ease-in;
+        transition: transform 0.2s ease-in;
+        transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+    }
+
+    .map .maps__absolute {
+        padding: 15px 20px;
+    }
+}
