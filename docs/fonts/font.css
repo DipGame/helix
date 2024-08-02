@@ -1,0 +1,233 @@
+@font-face {
+    font-family: "Din Next";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-Black.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-BlackItalic.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-BlackItalic.woff) format("woff");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Din Next";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-Bold.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-BoldItalic.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-BoldItalic.woff) format("woff");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Din Next";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-Light.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-LightItalic.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-LightItalic.woff) format("woff");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Din Next";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-Medium.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-MediumItalic.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-MediumItalic.woff) format("woff");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Din Next";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-Italic.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-Italic.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Din Next";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-UltraLight.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-UltraLight.woff) format("woff");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-UltraLightIt.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-UltraLightIt.woff) format("woff");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Din Pro";
+    font-display: swap;
+    /* src: url(../fonts/DINPro-CondensedLight.woff2) format("woff2"); */
+    src: url(../fonts/DINPro-CondensedLight.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next W1G";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-Black.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next W1G";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-BlackItalic.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-BlackItalic.woff) format("woff");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Din Next W1G";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-Bold.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next W1G";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-BoldItalic.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-BoldItalic.woff) format("woff");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Din Next W1G";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-Light.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next W1G";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-LightItalic.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-LightItalic.woff) format("woff");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Din Next W1G";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-Medium.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next W1G";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-MediumItalic.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-MediumItalic.woff) format("woff");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Din Next W1G";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next W1G";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-Italic.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-Italic.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Din Next W1G";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-UltraLight.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-UltraLight.woff) format("woff");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Din Next W1G";
+    font-display: swap;
+    /* src: url(../fonts/DINNextW1G-UltraLightIt.woff2) format("woff2"); */
+    src: url(../fonts/DINNextW1G-UltraLightIt.woff) format("woff");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Din Pro";
+    font-display: swap;
+    /* src: url(../fonts/DINPro-CondensedLight.woff2) format("woff2"); */
+    src: url(../fonts/DINPro-CondensedLight.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
